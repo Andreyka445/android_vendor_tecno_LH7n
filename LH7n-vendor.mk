@@ -232,6 +232,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/LH7n/proprietary/vendor/etc/init/v3avpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/v3avpud.rc \
     vendor/tecno/LH7n/proprietary/vendor/etc/init/vendor.fpsensor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.fpsensor.rc \
     vendor/tecno/LH7n/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc \
+    vendor/tecno/LH7n/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc \
     vendor/tecno/LH7n/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
     vendor/tecno/LH7n/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
     vendor/tecno/LH7n/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
@@ -831,6 +832,7 @@ PRODUCT_PACKAGES += \
     libminiui \
     libminizip \
     libmipc \
+    libmmagent \
     libmml \
     libmnetlink_v104 \
     libmsbc_mtk \
@@ -1328,6 +1330,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.keymaster_attestation@1.0 \
     vendor.mediatek.hardware.keymaster_attestation@1.1 \
     vendor.mediatek.hardware.mmagent@1.0 \
+    vendor.mediatek.hardware.mmagent@1.1 \
     vendor.mediatek.hardware.mms@1.0 \
     vendor.mediatek.hardware.mms@1.1 \
     vendor.mediatek.hardware.mms@1.2 \
@@ -1402,6 +1405,7 @@ PRODUCT_PACKAGES += \
     mtkfusionrild \
     tetheroffloadservice \
     vendor.mediatek.hardware.keymaster_attestation@1.1-service \
+    vendor.mediatek.hardware.mmagent@1.1-service \
     vendor.mediatek.hardware.mms@1.6-service \
     vendor.mediatek.hardware.nvram@1.1-service \
     vendor.mediatek.hardware.pq@2.2-service \

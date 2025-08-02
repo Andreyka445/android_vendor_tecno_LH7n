@@ -12624,6 +12624,37 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libmmagent",
+    owner: "tecno",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libmmagent.so",
+            ],
+            shared_libs: [
+                "libion",
+                "libion_mtk",
+                "libcutils",
+                "liblog",
+                "libutils",
+                "libdmabufheap",
+                "libneuron_runtime.5",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libmml",
     owner: "tecno",
     strip: {
@@ -27966,6 +27997,35 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.mmagent@1.1",
+    owner: "tecno",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.mediatek.hardware.mmagent@1.1.so",
+            ],
+            shared_libs: [
+                "vendor.mediatek.hardware.mmagent@1.0",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.mms@1.0",
     owner: "tecno",
     strip: {
@@ -29998,6 +30058,39 @@ cc_prebuilt_binary {
                 "libhidlbase",
                 "libhidltransport",
                 "vendor.mediatek.hardware.keymaster_attestation@1.1",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "vendor.mediatek.hardware.mmagent@1.1-service",
+    owner: "tecno",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service",
+            ],
+            shared_libs: [
+                "libmmagent",
+                "libbase",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libgralloc_extra",
+                "vendor.mediatek.hardware.mmagent@1.0",
+                "vendor.mediatek.hardware.mmagent@1.1",
                 "libc++",
                 "libc",
                 "libm",
