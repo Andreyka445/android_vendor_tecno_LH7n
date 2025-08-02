@@ -405,6 +405,7 @@ PRODUCT_PACKAGES += \
     libnvram \
     libnvram_sec \
     libtneclient \
+    libtranlog \
     libvcodec_oal \
     libvcodecdrv_header_stub \
     libverno \
@@ -901,7 +902,6 @@ PRODUCT_PACKAGES += \
     libtnev \
     libtrancamJsonConvertor \
     libtrancam_filelockmgr \
-    libtranlog \
     libtranssion_forkexecwrap \
     libtrm \
     libudf \
