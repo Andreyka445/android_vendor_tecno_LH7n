@@ -379,8 +379,6 @@ PRODUCT_PACKAGES += \
     AVCSecureVdecCA_510 \
     HEVCSecureVdecCA_510 \
     VP9SecureVdecCA_510 \
-    kmsetkey.trustonic \
-    vendor.mediatek.hardware.keymaster_attestation@1.1-impl \
     vendor.mediatek.hardware.videotelephony@1.0-impl \
     libAVCSecureVencCA_510 \
     libTEECommon \
@@ -388,9 +386,6 @@ PRODUCT_PACKAGES += \
     libaedv \
     libbwc \
     libccci_util \
-    libcustom_nvram \
-    libdecrypt \
-    libfile_op \
     libgz_gp_client \
     libgz_uree \
     libhevce_sb.ca7.android \
@@ -402,8 +397,6 @@ PRODUCT_PACKAGES += \
     libmtkcutils \
     libmtkproperty \
     libmtkrillog \
-    libnvram \
-    libnvram_sec \
     libtneclient \
     libtranlog \
     libvcodec_oal \
@@ -412,10 +405,6 @@ PRODUCT_PACKAGES += \
     libwo \
     arm.graphics-V1-ndk_platform \
     libmtk_drvb \
-    vendor.mediatek.hardware.keymaster_attestation@1.0 \
-    vendor.mediatek.hardware.keymaster_attestation@1.1 \
-    vendor.mediatek.hardware.nvram@1.0 \
-    vendor.mediatek.hardware.nvram@1.1 \
     vendor.mediatek.hardware.videotelephony@1.0 \
     libHEVCdec_sa.ca7.android \
     libfgauge_gm30 \
@@ -459,6 +448,7 @@ PRODUCT_PACKAGES += \
     fpsensor_fingerprint.default \
     gps.default \
     hwcomposer.mtk_common \
+    kmsetkey.trustonic \
     libMcGatekeeper \
     libSoftGatekeeper \
     android.hardware.camera.provider@2.6-impl-mediatek \
@@ -475,6 +465,7 @@ PRODUCT_PACKAGES += \
     vulkan.mali \
     sensors.mediatek.V2.0 \
     sound_trigger.primary.mt6789 \
+    vendor.mediatek.hardware.keymaster_attestation@1.1-impl \
     vendor.mediatek.hardware.mms@1.6-impl \
     vendor.mediatek.hardware.nvram@1.1-impl \
     lib3a.ae.pipe \
@@ -803,9 +794,12 @@ PRODUCT_PACKAGES += \
     libcodec2_vpp_rs_plugin \
     libcomposer_ext \
     libconnfem \
+    libcustom_nvram \
     libcvsd_mtk \
+    libdecrypt \
     libdre \
     libfeaturepolicy \
+    libfile_op \
     libforkexecwrap \
     libformatter \
     libfp_ext_svc2 \
@@ -826,6 +820,7 @@ PRODUCT_PACKAGES += \
     libifcutils_mtk \
     libimagebuffer_wrapper \
     libimgsensorca \
+    libimsg_log \
     libispcameraca \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
@@ -879,6 +874,8 @@ PRODUCT_PACKAGES += \
     libnnp \
     libnpagent \
     libnpagent_server \
+    libnvram \
+    libnvram_sec \
     libnxp_extamp_intf \
     liboemcrypto \
     libpixelflinger \
@@ -1327,6 +1324,8 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.security@1.0 \
     vendor.mediatek.hardware.clientapi@1.0 \
     vendor.mediatek.hardware.composer_ext@1.0 \
+    vendor.mediatek.hardware.keymaster_attestation@1.0 \
+    vendor.mediatek.hardware.keymaster_attestation@1.1 \
     vendor.mediatek.hardware.mmagent@1.0 \
     vendor.mediatek.hardware.mms@1.0 \
     vendor.mediatek.hardware.mms@1.1 \
@@ -1341,6 +1340,8 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.neuropilot.agent@1.0 \
     vendor.mediatek.hardware.neuropilot.agent@1.1 \
     vendor.mediatek.hardware.neuropilot.agent@1.2 \
+    vendor.mediatek.hardware.nvram@1.0 \
+    vendor.mediatek.hardware.nvram@1.1 \
     vendor.mediatek.hardware.power@1.1 \
     vendor.mediatek.hardware.power@2.0 \
     vendor.mediatek.hardware.pq@2.0 \
@@ -1432,8 +1433,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor_bin_hw_android_hardware_graphics_allocator@4_0-service-mediatek \
     vendor_bin_hw_camerahalserver \
-    vendor_bin_v3avpud_mt6789 \
-    vendor_lib_hw_kmsetkey_default_so \
+    vendor_bin_v3avpud \
     vendor_lib_arm_graphics-V1-ndk_platform_so \
     vendor_lib_libmtk_drvb_so \
     vendor_lib_libvcodec_utility_so \
