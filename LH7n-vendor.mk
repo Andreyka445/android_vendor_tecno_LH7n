@@ -718,6 +718,7 @@ PRODUCT_PACKAGES += \
     libOpenCL \
     libSQLiteModule_VER_ALL \
     libTranExtImgThread \
+    libTransNS \
     lib_iir \
     lib_speech_enh \
     libaal_cust \
