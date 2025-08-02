@@ -408,7 +408,6 @@ PRODUCT_PACKAGES += \
     libmtk_drvb \
     vendor.mediatek.hardware.videotelephony@1.0 \
     libHEVCdec_sa.ca7.android \
-    libfgauge_gm30 \
     libh264dec_customize \
     libh264dec_sa.ca7 \
     libh264dec_sd.ca7 \
@@ -801,6 +800,7 @@ PRODUCT_PACKAGES += \
     libdecrypt \
     libdre \
     libfeaturepolicy \
+    libfgauge_gm30 \
     libfile_op \
     libforkexecwrap \
     libformatter \
