@@ -1385,7 +1385,6 @@ PRODUCT_PACKAGES += \
     manifest_cameraprovider.xml \
     manifest_hwcomposer.xml \
     manifest_media_c2_V1_2_default.xml \
-    manifest_tneengine.xml \
     vendor.transsion.hardware.trancam.trancamserver@1.0.xml \
     ccci_mdinit \
     ccci_rpcd \
