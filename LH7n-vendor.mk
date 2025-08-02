@@ -428,6 +428,7 @@ PRODUCT_PACKAGES += \
     libmp4enc_xa.ca7 \
     librcs_interface \
     librcs_volte_core \
+    libthha \
     libvcodec_utility_plat.mt6789 \
     libvolte_core_shr \
     libvolte_xdmc_shr \
