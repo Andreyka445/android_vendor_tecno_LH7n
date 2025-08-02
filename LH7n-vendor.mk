@@ -404,6 +404,7 @@ PRODUCT_PACKAGES += \
     libmtkrillog \
     libnvram \
     libnvram_sec \
+    libtneclient \
     libvcodec_oal \
     libvcodecdrv_header_stub \
     libverno \
@@ -897,7 +898,6 @@ PRODUCT_PACKAGES += \
     libsysenv \
     libtflite_mtk \
     libtlcWidevineModularDrm \
-    libtneclient \
     libtnev \
     libtrancamJsonConvertor \
     libtrancam_filelockmgr \
