@@ -452,7 +452,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1-impl-mediatek \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
-    android.hardware.sensors@2.X-subhal-mediatek \
     audio.primary.mediatek \
     audio.r_submix.mediatek \
     fpsensor_fingerprint.default \
