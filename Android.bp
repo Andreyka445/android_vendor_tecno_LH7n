@@ -29159,62 +29159,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.transsion.hardware.tranlog@1.0",
-    owner: "tecno",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.transsion.hardware.tranlog@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.transsion.hardware.tranlogconfig@1.0",
-    owner: "tecno",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.transsion.hardware.tranlogconfig@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.trustonic.tee.tui@1.0",
     owner: "tecno",
     strip: {
@@ -30551,75 +30495,6 @@ cc_prebuilt_binary {
                 "libifcutils_mtk",
                 "libmipc",
                 "libmtkproperty",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "tranlog",
-    owner: "tecno",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/tranlog",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libexpat",
-                "libbinder",
-                "libutils",
-                "libtranlog",
-                "libminizip",
-                "libhidlbase",
-                "libhidltransport",
-                "vendor.transsion.hardware.tranlog@1.0",
-                "libhwbinder",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "tranlogconfig",
-    owner: "tecno",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/tranlogconfig",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libexpat",
-                "libbinder",
-                "libutils",
-                "libtranlog",
-                "libhidlbase",
-                "libhidltransport",
-                "vendor.transsion.hardware.tranlogconfig@1.0",
-                "libhwbinder",
                 "libc++",
                 "libc",
                 "libm",
