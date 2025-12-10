@@ -14704,7 +14704,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libwapi",
+    name: "libwifi-hal-mtk",
     owner: "tecno",
     strip: {
         none: true,
@@ -14712,12 +14712,14 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libwapi.so",
+                "proprietary/vendor/lib64/libwifi-hal-mtk.so",
             ],
             shared_libs: [
-                "libkeystore-wifi-hidl",
-                "libcrypto",
+                "libbase",
+                "libcutils",
                 "liblog",
+                "libnl",
+                "libutils",
                 "libc++",
                 "libc",
                 "libm",
