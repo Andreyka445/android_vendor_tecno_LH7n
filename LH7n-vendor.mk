@@ -436,11 +436,6 @@ PRODUCT_PACKAGES += \
     APUWareApusysServer \
     APUWareHmpServer \
     APUWareUtilsServer \
-    libGLES_meow \
-    libMEOW_data \
-    libMEOW_gift \
-    libMEOW_qt \
-    libMEOW_trace \
     libGLES_mali \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
@@ -707,15 +702,12 @@ PRODUCT_PACKAGES += \
     libCamera_pbrohi5021qmipiraw_Video_Zoom1 \
     libCamera_pbrohi5021qmipiraw_Video_Zoom2 \
     libCamera_pbrohi5021qmipiraw_Video_Zoom3 \
-    libDefaultFpsActor \
-    libFrameRecord \
     libFy-3A-Core \
     libFy-3A-Param \
     libJpgEncPipe \
     libMcClient \
     libMegviiHum \
     libMtkSpeechEnh \
-    libNoFpsActor \
     libOpenCL \
     libSQLiteModule_VER_ALL \
     libTranExtImgThread \
