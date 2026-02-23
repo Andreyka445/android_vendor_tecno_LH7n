@@ -28906,6 +28906,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/libarmnn_ndk.mtk.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcmdl_ndk.mtk",
                 "libdl",
                 "libm",
