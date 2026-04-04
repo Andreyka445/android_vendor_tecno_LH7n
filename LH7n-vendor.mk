@@ -454,12 +454,12 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.isphal@1.1-impl \
     vendor.mediatek.hardware.camera.lomoeffect@1.0-impl \
     vendor.mediatek.hardware.pq@2.15-impl \
-    vulkan.mali \
     sensors.mediatek.V2.0 \
     sound_trigger.primary.mt6789 \
     vendor.mediatek.hardware.keymaster_attestation@1.1-impl \
     vendor.mediatek.hardware.mms@1.6-impl \
     vendor.mediatek.hardware.nvram@1.1-impl \
+    vulkan.mali \
     lbs_hidl_service-impl \
     lib3a.ae.pipe \
     libBasicModule \
@@ -724,6 +724,8 @@ PRODUCT_PACKAGES += \
     libapu_mdw_batch \
     libapusys \
     libapusys_edma \
+    libarm_egl_properties_sysprop \
+    libarm_gralloc_properties_sysprop \
     libarmnn \
     libarmnn_ndk.mtk.vndk \
     libasn1c_core \
@@ -814,6 +816,7 @@ PRODUCT_PACKAGES += \
     libjpeg-alpha_vendor \
     libkmsetkey \
     libksensor \
+    liblibarm_mali_config_sysprops \
     libmegface \
     libminiui \
     libminizip \
@@ -1479,7 +1482,6 @@ PRODUCT_PACKAGES += \
     vendor_lib_libvcodecdrv_so \
     vendor_lib_libvcodecdrv_v3a_so \
     vendor_lib_libvpudv3a_vcodec_so \
-    vendor_lib64_egl_libGLES_mali_so \
     vendor_lib64_hw_audio_primary_mt6789_so \
     vendor_lib64_hw_kmsetkey_default_so \
     vendor_lib64_hw_gatekeeper_trustonic_so \
@@ -1495,7 +1497,6 @@ PRODUCT_PACKAGES += \
     vendor_lib64_hw_vendor_mediatek_hardware_camera_isphal@1_1-impl_so \
     vendor_lib64_hw_vendor_mediatek_hardware_camera_lomoeffect@1_0-impl_so \
     vendor_lib64_hw_vendor_mediatek_hardware_pq@2_15-impl_so \
-    vendor_lib64_hw_vulkan_mali_so \
     vendor_lib64_hw_sensors_mt6789_so \
     vendor_lib64_arm_graphics-V1-ndk_platform_so \
     vendor_lib64_fake_serial_yuv_IdxMgr_so \
